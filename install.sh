@@ -14,3 +14,8 @@ cd -
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/get-gah/gah/refs/heads/master/tools/install.sh)"
 gah install lazygit --unattended
 
+cd ~
+wget https://github.com/tree-sitter/tree-sitter/releases/download/v0.22.2/tree-sitter-linux-x64.gz
+gunzip tree-sitter-linux-x64.gz
+sudo mv tree-sitter-linux-x64 /usr/bin/tree-sitter
+sudo chmod +x /usr/bin/tree-sitter
