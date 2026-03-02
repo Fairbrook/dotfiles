@@ -19,3 +19,5 @@ wget https://github.com/tree-sitter/tree-sitter/releases/download/v0.22.2/tree-s
 gunzip tree-sitter-linux-x64.gz
 sudo mv tree-sitter-linux-x64 /usr/bin/tree-sitter
 sudo chmod +x /usr/bin/tree-sitter
+
+curl -fsSL https://claude.ai/install.sh | bash
