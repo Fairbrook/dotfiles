@@ -5,7 +5,7 @@ echo "export TERM=xterm256-color" >> ~/.bashrc
 echo "export EDITOR=nvim" >> ~/.bashrc
 
 git clone https://github.com/Fairbrook/lazyvim ~/.config/nvim
-wget https://gist.githubusercontent.com/Fairbrook/79a77e4f52e155b6c87c724c13b8a72f/raw/8e6ef361a504a80ae40c10c43da9886632c0849f/.tmux.conf -O ~/.tmux.conf 
+wget https://gist.githubusercontent.com/Fairbrook/79a77e4f52e155b6c87c724c13b8a72f/raw/8d0285fd8fbaad3fe10e24ae5d13aae2c86b034a/.tmux.conf -O ~/.tmux.conf 
 
 sudo apt-get update
 sudo apt-get install -y ninja-build gettext cmake curl build-essential git tmux ripgrep fd-find libtree-sitter-dev
