@@ -1,7 +1,7 @@
 #!/bin/bash
 
 touch ~/.bashrc
-echo "export TERM=xterm256-color" >> ~/.bashrc
+echo "export TERM=xterm-256color" >> ~/.bashrc
 echo "export EDITOR=nvim" >> ~/.bashrc
 
 git clone https://github.com/Fairbrook/lazyvim ~/.config/nvim
