@@ -1,5 +1,9 @@
 #!/bin/bash
 
+touch ~/.bashrc
+echo "export TERM=xterm256-color" >> ~/.bashrc
+echo "export EDITOR=nvim" >> ~/.bashrc
+
 git clone https://github.com/Fairbrook/lazyvim ~/.config/nvim
 wget https://gist.githubusercontent.com/Fairbrook/79a77e4f52e155b6c87c724c13b8a72f/raw/8e6ef361a504a80ae40c10c43da9886632c0849f/.tmux.conf -O ~/.tmux.conf 
 
@@ -12,7 +16,7 @@ sudo make install
 cd -
 
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/get-gah/gah/refs/heads/master/tools/install.sh)"
-gah install lazygit --unattended
+sudo gah install lazygit --unattended
 
 cd ~
 wget https://github.com/tree-sitter/tree-sitter/releases/download/v0.22.2/tree-sitter-linux-x64.gz
